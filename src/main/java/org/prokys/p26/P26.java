@@ -15,17 +15,14 @@ public class P26 {
     public static int removeDuplicates(int[] nums) {
 
         List<Integer> numbers = new ArrayList<>();
+        int numberOfElements = 0;
 
         for (int num : nums) {
             if (!numbers.contains(num)) {
                 numbers.add(num);
+                nums[numberOfElements] = num;
+                numberOfElements ++;
             }
-        }
-
-        int numberOfElements = numbers.size();
-
-        for (int i = 0; i < numberOfElements; i++) {
-            nums[i] = numbers.get(i);
         }
 
         return numberOfElements;
