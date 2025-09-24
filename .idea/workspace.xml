@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p108/P108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p108/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p110/P110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p110/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.P101.executor": "Run",
     "Application.P104.executor": "Run",
     "Application.P108.executor": "Run",
+    "Application.P110.executor": "Run",
     "Application.P35.executor": "Run",
     "Application.P58.executor": "Run",
     "Application.P66.executor": "Run",
@@ -81,13 +82,14 @@
       <recent name="E:\Git\IdeaProjects\LeetCode\src\main\java\org\prokys" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.prokys.p110" />
       <recent name="org.prokys.p108" />
       <recent name="org.prokys.p104" />
       <recent name="org.prokys.p101" />
       <recent name="org.prokys.p100" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P108">
+  <component name="RunManager" selected="Application.P110">
     <configuration name="P100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.prokys.p100.P100" />
       <module name="LeetCode" />
@@ -140,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.prokys.P94.p94" />
+    <configuration name="P110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.prokys.p110.P110" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.prokys.P94.*" />
+          <option name="PATTERN" value="org.prokys.p110.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P110" />
         <item itemvalue="Application.P108" />
         <item itemvalue="Application.P104" />
         <item itemvalue="Application.P101" />
         <item itemvalue="Application.P100" />
-        <item itemvalue="Application.p94" />
       </list>
     </recent_temporary>
   </component>
