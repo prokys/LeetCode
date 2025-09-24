@@ -13,9 +13,9 @@ public class P111 {
         System.out.println(minDepth(root2));
     }
     public static int minDepth(TreeNode root) {
-        minDepthInt = 999;
+        minDepthInt = 99999;
         getDepth(root,0);
-        if (minDepthInt == 999){
+        if (minDepthInt == 99999){
             return 0;
         }else return minDepthInt;
     }
