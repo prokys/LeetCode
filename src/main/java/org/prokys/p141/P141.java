@@ -15,7 +15,7 @@ public class P141 {
 
     public static boolean hasCycle(ListNode head) {
 
-        if (head.next == null){
+        if (head == null || head.next == null  ){
             return false;
         }else if (list.contains(head)){
             return true;
