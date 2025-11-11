@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p168/P168.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/P168Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p169/P169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p169/P169Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/P168Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p168/P168Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,7 @@
     "Application.P145.executor": "Run",
     "Application.P160.executor": "Run",
     "Application.P168.executor": "Run",
+    "Application.P169.executor": "Run",
     "Application.P35.executor": "Run",
     "Application.P58.executor": "Run",
     "Application.P66.executor": "Run",
@@ -80,8 +81,9 @@
     "Application.P83.executor": "Run",
     "Application.P88.executor": "Run",
     "Application.p94.executor": "Run",
-    "JUnit.P168Test.executor": "Debug",
+    "JUnit.P168Test.executor": "Run",
     "JUnit.P168Test.testDivide.executor": "Run",
+    "JUnit.P169Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -104,33 +106,7 @@
       <recent name="org.prokys.p110" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P168Test">
-    <configuration name="P145" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.prokys.p145.P145" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.prokys.p145.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P160" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.prokys.p160.P160" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.prokys.p160.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P169Test">
     <configuration name="P168" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.prokys.p168.P168" />
       <module name="LeetCode" />
@@ -144,10 +120,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.prokys.p169.P169" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.prokys.p169.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P168Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="P168Test" />
+      <option name="PACKAGE_NAME" value="p168" />
+      <option name="MAIN_CLASS_NAME" value="p168.P168Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,21 +144,36 @@
     </configuration>
     <configuration name="P168Test.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="P168Test" />
+      <option name="PACKAGE_NAME" value="p168" />
+      <option name="MAIN_CLASS_NAME" value="p168.P168Test" />
       <option name="METHOD_NAME" value="testDivide" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P169Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p169.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p169" />
+      <option name="MAIN_CLASS_NAME" value="p169.P169Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P169Test" />
+        <item itemvalue="Application.P169" />
         <item itemvalue="JUnit.P168Test" />
         <item itemvalue="Application.P168" />
         <item itemvalue="JUnit.P168Test.testDivide" />
-        <item itemvalue="Application.P160" />
-        <item itemvalue="Application.P145" />
       </list>
     </recent_temporary>
   </component>
@@ -237,15 +241,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/prokys/p168/P168.java</url>
-          <line>75</line>
-          <properties class="org.prokys.p168.P168" method="divide">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
