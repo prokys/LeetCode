@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p190/P190.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p190/P190Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p191/P191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p191Test/P191Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +86,7 @@
     "JUnit.P169Test.executor": "Run",
     "JUnit.P171Test.executor": "Run",
     "JUnit.P190Test.executor": "Run",
+    "JUnit.P191Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -101,27 +102,14 @@
       <recent name="E:\Git\IdeaProjects\LeetCode\src\main\java\org\prokys" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="p191Test" />
+      <recent name="org.prokys.p191" />
       <recent name="org.prokys.p145" />
       <recent name="org.prokys.p144" />
       <recent name="org.prokys.p112" />
-      <recent name="org.prokys.p111" />
-      <recent name="org.prokys.p110" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P190Test">
-    <configuration name="P169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.prokys.p169.P169" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.prokys.p169.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P191Test">
     <configuration name="P171" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.prokys.p171.P171" />
       <module name="LeetCode" />
@@ -180,13 +168,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P191Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p191Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p191Test" />
+      <option name="MAIN_CLASS_NAME" value="p191Test.P191Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P191Test" />
         <item itemvalue="JUnit.P190Test" />
         <item itemvalue="JUnit.P171Test" />
         <item itemvalue="Application.P171" />
         <item itemvalue="JUnit.P169Test" />
-        <item itemvalue="Application.P169" />
       </list>
     </recent_temporary>
   </component>
