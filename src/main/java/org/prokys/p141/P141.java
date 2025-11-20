@@ -2,6 +2,7 @@ package org.prokys.p141;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.prokys.utils.ListNode;
 
 public class P141 {
 
