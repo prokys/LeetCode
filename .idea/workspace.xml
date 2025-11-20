@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p203/P203.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/utils/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p203/P203Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/prokys/p160/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/prokys/p160/P160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p160/P160.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,33 +111,29 @@
       <recent name="org.prokys.p112" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P203Test">
-    <configuration name="P171Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.P83">
+    <configuration name="P160" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.prokys.p160.P160" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p171.*" />
+          <option name="PATTERN" value="org.prokys.p160.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p171" />
-      <option name="MAIN_CLASS_NAME" value="p171.P171Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P190Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="P83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.prokys.p83.P83" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p190.*" />
+          <option name="PATTERN" value="org.prokys.p83.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p190" />
-      <option name="MAIN_CLASS_NAME" value="p190.P190Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P83" />
+        <item itemvalue="Application.P160" />
         <item itemvalue="JUnit.P203Test" />
         <item itemvalue="JUnit.P202Test" />
         <item itemvalue="JUnit.P191Test" />
-        <item itemvalue="JUnit.P190Test" />
-        <item itemvalue="JUnit.P171Test" />
       </list>
     </recent_temporary>
   </component>
@@ -253,11 +248,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/prokys/p35/P35.java</url>
           <line>53</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/prokys/p160/P160.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/prokys/p118/P118.java</url>
