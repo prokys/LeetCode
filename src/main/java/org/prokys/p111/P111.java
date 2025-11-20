@@ -1,5 +1,7 @@
 package org.prokys.p111;
 
+import org.prokys.utils.TreeNode;
+
 public class P111 {
 
     public static int minDepthInt;

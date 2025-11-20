@@ -2,6 +2,7 @@ package org.prokys.P94;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.prokys.utils.TreeNode;
 
 public class p94 {
 

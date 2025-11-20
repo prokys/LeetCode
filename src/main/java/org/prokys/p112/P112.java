@@ -1,5 +1,7 @@
 package org.prokys.p112;
 
+import org.prokys.utils.TreeNode;
+
 public class P112 {
 
     public static int sum;

@@ -1,5 +1,7 @@
 package org.prokys.p104;
 
+import org.prokys.utils.TreeNode;
+
 public class P104 {
     public static int maxDepthInt = 0;
     public static TreeNode root = new TreeNode(1, null, new TreeNode(2));
