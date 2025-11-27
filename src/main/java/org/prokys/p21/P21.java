@@ -1,6 +1,8 @@
 package org.prokys.p21;
 
-import java.util.List;
+import org.prokys.utils.ListNode;
+
+import java.util.Arrays;
 
 public class P21 {
 
@@ -9,29 +11,12 @@ public class P21 {
         ListNode listNode = new ListNode(1, new ListNode(2, new ListNode(4)));
         ListNode listNode2 = new ListNode(1, new ListNode(3, new ListNode(4)));
 
-        System.out.println("listNode = " + listNode);
-        System.out.println("listNode2 = " + listNode2);
+        System.out.println("listNode = " + Arrays.toString(ListNode.toArray(listNode)));
+        System.out.println("listNode2 = " + Arrays.toString(ListNode.toArray(listNode2)));
 
-        System.out.println(mergeTwoLists(listNode, listNode2));
+        System.out.println(Arrays.toString(ListNode.toArray(mergeTwoLists(listNode, listNode2))));
 
     }
-
-
-      public static class ListNode {
-          int val;
-          ListNode next;
-         ListNode() {}
-         ListNode(int val) { this.val = val; }
-          ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-
-          @Override
-          public String toString() {
-              return "ListNode{" +
-                      "val=" + val +
-                      ", next=" + next +
-                      '}';
-          }
-      }
 
         public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 

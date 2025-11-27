@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p206/P206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p206/P206Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/prokys/p21/P21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p21/P21.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +70,7 @@
     "Application.P168.executor": "Run",
     "Application.P169.executor": "Run",
     "Application.P171.executor": "Run",
+    "Application.P21.executor": "Run",
     "Application.P35.executor": "Run",
     "Application.P58.executor": "Run",
     "Application.P66.executor": "Run",
@@ -114,13 +113,13 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P206Test">
-    <configuration name="P141" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.prokys.p141.P141" />
+  <component name="RunManager" selected="Application.P21">
+    <configuration name="P145" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.prokys.p145.P145" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.prokys.p141.*" />
+          <option name="PATTERN" value="org.prokys.p145.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P145" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.prokys.p145.P145" />
+    <configuration name="P21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.prokys.p21.P21" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.prokys.p145.*" />
+          <option name="PATTERN" value="org.prokys.p21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P21" />
         <item itemvalue="JUnit.P206Test" />
         <item itemvalue="JUnit.P205Test" />
         <item itemvalue="JUnit.java in LeetCode" />
         <item itemvalue="Application.P145" />
-        <item itemvalue="Application.P141" />
       </list>
     </recent_temporary>
   </component>
