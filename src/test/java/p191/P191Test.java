@@ -1,4 +1,4 @@
-package p191Test;
+package p191;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
