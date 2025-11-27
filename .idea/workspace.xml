@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/prokys/p21/P21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p21/P21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p217/P217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p217/P217Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,7 @@
     "JUnit.P203Test.executor": "Run",
     "JUnit.P205Test.executor": "Run",
     "JUnit.P206Test.executor": "Run",
+    "JUnit.P217Test.executor": "Run",
     "JUnit.java in LeetCode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -113,20 +116,7 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P21">
-    <configuration name="P145" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.prokys.p145.P145" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.prokys.p145.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P217Test">
     <configuration name="P21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.prokys.p21.P21" />
       <module name="LeetCode" />
@@ -170,6 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P217Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p217.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p217" />
+      <option name="MAIN_CLASS_NAME" value="p217.P217Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="java in LeetCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="TEST_OBJECT" value="directory" />
@@ -180,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P217Test" />
         <item itemvalue="Application.P21" />
         <item itemvalue="JUnit.P206Test" />
         <item itemvalue="JUnit.P205Test" />
         <item itemvalue="JUnit.java in LeetCode" />
-        <item itemvalue="Application.P145" />
       </list>
     </recent_temporary>
   </component>
