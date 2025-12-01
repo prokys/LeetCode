@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p225/P225.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p225/P225.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p226/P226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p226/P226Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +96,7 @@
     "JUnit.P219Test.executor": "Run",
     "JUnit.P222Test.executor": "Run",
     "JUnit.P225.executor": "Run",
+    "JUnit.P226Test.executor": "Run",
     "JUnit.java in LeetCode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -119,20 +120,7 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P225">
-    <configuration name="P21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.prokys.p21.P21" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.prokys.p21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P226Test">
     <configuration name="P217Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -193,13 +181,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P226Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p226.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p226" />
+      <option name="MAIN_CLASS_NAME" value="p226.P226Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P226Test" />
         <item itemvalue="JUnit.P225" />
         <item itemvalue="JUnit.P222Test" />
         <item itemvalue="JUnit.P219Test" />
         <item itemvalue="JUnit.P217Test" />
-        <item itemvalue="Application.P21" />
       </list>
     </recent_temporary>
   </component>
