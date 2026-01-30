@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p228/P228.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p228/P228Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p231/P231.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p231/P231Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +99,7 @@
     "JUnit.P226Test.executor": "Run",
     "JUnit.P228Test.testInvertTree.executor": "Run",
     "JUnit.P228Test.testSummaryRanges.executor": "Run",
+    "JUnit.P231Test.executor": "Run",
     "JUnit.java in LeetCode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -122,22 +123,7 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P228Test.testSummaryRanges">
-    <configuration name="P222Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p222.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p222" />
-      <option name="MAIN_CLASS_NAME" value="p222.P222Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P231Test">
     <configuration name="P225" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -200,13 +186,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P231Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p231.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p231" />
+      <option name="MAIN_CLASS_NAME" value="p231.P231Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P231Test" />
         <item itemvalue="JUnit.P228Test.testSummaryRanges" />
         <item itemvalue="JUnit.P228Test.testInvertTree" />
         <item itemvalue="JUnit.P226Test" />
         <item itemvalue="JUnit.P225" />
-        <item itemvalue="JUnit.P222Test" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +266,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/prokys/p35/P35.java</url>
           <line>53</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/prokys/p231/P231.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/prokys/p118/P118.java</url>
