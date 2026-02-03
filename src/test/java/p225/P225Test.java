@@ -7,9 +7,9 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static org.prokys.p225.P225.*;
+import static org.prokys.p225.P225.runCommands;
 
-public class P225 {
+public class P225Test {
 
     static Stream<Arguments> data() {
         return Stream.of(
@@ -25,32 +25,6 @@ public class P225 {
     @MethodSource("data")
     public void testMyStack(String[] input, Integer[] parameters, String[] result){
 
-        MyStack myStack = new MyStack();
-
-        for (int i = 0; i < input.length; i++) {
-            switch (input[i]){
-                case "MyStack":{
-                    myStack = new MyStack();
-                    break;
-                }
-                case "push":{
-                    myStack.push(parameters[i]);
-                    break;
-                }
-                case "top":{
-                    Assertions.assertEquals(Integer.parseInt(result[i]), myStack.top());
-                    break;
-                }
-                case "pop":{
-                    Assertions.assertEquals(Integer.parseInt(result[i]), myStack.pop());
-                    break;
-                }
-                case "empty":{
-                    Assertions.assertEquals(result[i].equals("true"), myStack.empty());
-                    break;
-                }
-            }
-        }
-
+        Assertions.assertArrayEquals(result, runCommands(input, parameters));
     }
 }

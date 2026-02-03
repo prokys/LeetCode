@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p232/P232.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/utils/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p232/P232Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/utils/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/prokys/p225/P225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p225/P225.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/p225/P225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p225/P225.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,17 +126,17 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P232Test">
-    <configuration name="P226Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.P225">
+    <configuration name="P225" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p226.*" />
+          <option name="PATTERN" value="p225.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p226" />
-      <option name="MAIN_CLASS_NAME" value="p226.P226Test" />
+      <option name="PACKAGE_NAME" value="p225" />
+      <option name="MAIN_CLASS_NAME" value="p225.P225" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P225" />
         <item itemvalue="JUnit.P232Test" />
         <item itemvalue="JUnit.P231Test" />
         <item itemvalue="JUnit.P228Test.testSummaryRanges" />
         <item itemvalue="JUnit.P228Test.testInvertTree" />
-        <item itemvalue="JUnit.P226Test" />
       </list>
     </recent_temporary>
   </component>
