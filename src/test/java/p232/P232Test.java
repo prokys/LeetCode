@@ -23,7 +23,7 @@ public class P232Test {
 
     @ParameterizedTest
     @MethodSource("data")
-    public void testMyStack(String[] input, Integer[] parameters, String[] result){
+    public void testMyQue(String[] input, Integer[] parameters, String[] result){
 
         Assertions.assertArrayEquals(result, runCommands(input,parameters));
 

@@ -28,7 +28,7 @@ public class P231Test {
 
     @ParameterizedTest
     @MethodSource("data")
-    public void testSummaryRanges(int input, boolean result){
+    public void testIsPowerOfTwo(int input, boolean result){
         Assertions.assertEquals(result, isPowerOfTwo(input));
     }
 }
