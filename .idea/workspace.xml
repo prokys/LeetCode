@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="" />
+    <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p303/P303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/utils/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p303/P303Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,77 +52,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.P100.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P101.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P104.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P108.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P110.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P111.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P112.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P118.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P119.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P121.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P125.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P136.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P141.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P144.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P145.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P160.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P168.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P169.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P171.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P21.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P35.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P58.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P66.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P67.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P69.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P70.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P83.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P88.executor&quot;: &quot;Run&quot;,
-    &quot;Application.p94.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P168Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P168Test.testDivide.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P169Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P171Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P190Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P191Test.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.P202Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P203Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P205Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P206Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P217Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P219Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P222Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P225.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P226Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P228Test.testInvertTree.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P228Test.testSummaryRanges.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P231Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P232Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P232Test.testMyStack.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.P234Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P242Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P257Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P258Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P263Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P268Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P278Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P283Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.P290Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.java in LeetCode.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last.edited.regexp&quot;: &quot;[]&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.P100.executor": "Run",
+    "Application.P101.executor": "Run",
+    "Application.P104.executor": "Run",
+    "Application.P108.executor": "Run",
+    "Application.P110.executor": "Run",
+    "Application.P111.executor": "Run",
+    "Application.P112.executor": "Run",
+    "Application.P118.executor": "Run",
+    "Application.P119.executor": "Run",
+    "Application.P121.executor": "Run",
+    "Application.P125.executor": "Run",
+    "Application.P136.executor": "Run",
+    "Application.P141.executor": "Run",
+    "Application.P144.executor": "Run",
+    "Application.P145.executor": "Run",
+    "Application.P160.executor": "Run",
+    "Application.P168.executor": "Run",
+    "Application.P169.executor": "Run",
+    "Application.P171.executor": "Run",
+    "Application.P21.executor": "Run",
+    "Application.P35.executor": "Run",
+    "Application.P58.executor": "Run",
+    "Application.P66.executor": "Run",
+    "Application.P67.executor": "Run",
+    "Application.P69.executor": "Run",
+    "Application.P70.executor": "Run",
+    "Application.P83.executor": "Run",
+    "Application.P88.executor": "Run",
+    "Application.p94.executor": "Run",
+    "JUnit.P168Test.executor": "Run",
+    "JUnit.P168Test.testDivide.executor": "Run",
+    "JUnit.P169Test.executor": "Run",
+    "JUnit.P171Test.executor": "Run",
+    "JUnit.P190Test.executor": "Run",
+    "JUnit.P191Test.executor": "Debug",
+    "JUnit.P202Test.executor": "Run",
+    "JUnit.P203Test.executor": "Run",
+    "JUnit.P205Test.executor": "Run",
+    "JUnit.P206Test.executor": "Run",
+    "JUnit.P217Test.executor": "Run",
+    "JUnit.P219Test.executor": "Run",
+    "JUnit.P222Test.executor": "Run",
+    "JUnit.P225.executor": "Run",
+    "JUnit.P226Test.executor": "Run",
+    "JUnit.P228Test.testInvertTree.executor": "Run",
+    "JUnit.P228Test.testSummaryRanges.executor": "Run",
+    "JUnit.P231Test.executor": "Run",
+    "JUnit.P232Test.executor": "Run",
+    "JUnit.P232Test.testMyStack.executor": "Debug",
+    "JUnit.P234Test.executor": "Run",
+    "JUnit.P242Test.executor": "Run",
+    "JUnit.P257Test.executor": "Run",
+    "JUnit.P258Test.executor": "Run",
+    "JUnit.P263Test.executor": "Run",
+    "JUnit.P268Test.executor": "Run",
+    "JUnit.P278Test.executor": "Run",
+    "JUnit.P283Test.executor": "Run",
+    "JUnit.P290Test.executor": "Run",
+    "JUnit.P292Test.executor": "Run",
+    "JUnit.P303Test.executor": "Run",
+    "JUnit.java in LeetCode.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "[]",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Git\IdeaProjects\LeetCode\src\main\java\org\prokys" />
@@ -130,22 +137,7 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P292Test">
-    <configuration name="P268Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p268.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p268" />
-      <option name="MAIN_CLASS_NAME" value="p268.P268Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P303Test">
     <configuration name="P278Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -206,13 +198,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P303Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p303.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p303" />
+      <option name="MAIN_CLASS_NAME" value="p303.P303Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P303Test" />
         <item itemvalue="JUnit.P292Test" />
         <item itemvalue="JUnit.P290Test" />
         <item itemvalue="JUnit.P283Test" />
         <item itemvalue="JUnit.P278Test" />
-        <item itemvalue="JUnit.P268Test" />
       </list>
     </recent_temporary>
   </component>
