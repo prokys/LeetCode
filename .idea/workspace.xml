@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p342/P342.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p342/P342Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p344/P344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p344/P344Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,22 +138,7 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P342Test">
-    <configuration name="P292Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p292.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p292" />
-      <option name="MAIN_CLASS_NAME" value="p292.P292Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P344Test">
     <configuration name="P303Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -215,13 +199,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P344Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p344.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p344" />
+      <option name="MAIN_CLASS_NAME" value="p344.P344Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P344Test" />
         <item itemvalue="JUnit.P342Test" />
         <item itemvalue="JUnit.P338Test" />
         <item itemvalue="JUnit.P326Test" />
         <item itemvalue="JUnit.P303Test" />
-        <item itemvalue="JUnit.P292Test" />
       </list>
     </recent_temporary>
   </component>
