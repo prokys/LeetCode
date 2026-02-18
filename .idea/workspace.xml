@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p367/P367.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p367/P367Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p374/P374.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p374/P374Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +121,7 @@
     "JUnit.P349Test.executor": "Run",
     "JUnit.P350Test.executor": "Run",
     "JUnit.P367Test.executor": "Run",
+    "JUnit.P374Test.executor": "Run",
     "JUnit.java in LeetCode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -144,22 +145,7 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P367Test">
-    <configuration name="P344Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p344.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p344" />
-      <option name="MAIN_CLASS_NAME" value="p344.P344Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P374Test">
     <configuration name="P345Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -220,13 +206,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P374Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p374.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p374" />
+      <option name="MAIN_CLASS_NAME" value="p374.P374Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P374Test" />
         <item itemvalue="JUnit.P367Test" />
         <item itemvalue="JUnit.P350Test" />
         <item itemvalue="JUnit.P349Test" />
         <item itemvalue="JUnit.P345Test" />
-        <item itemvalue="JUnit.P344Test" />
       </list>
     </recent_temporary>
   </component>
