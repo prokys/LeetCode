@@ -22,7 +22,7 @@ public class P387Test {
 
     @ParameterizedTest
     @MethodSource("data")
-    public void testCanConstruct(String input, int result){
+    public void testFirstUniqChar(String input, int result){
 
         Assertions.assertEquals(result, firstUniqChar(input));
 

@@ -22,7 +22,7 @@ public class P389Test {
 
     @ParameterizedTest
     @MethodSource("data")
-    public void testCanConstruct(String input, String shuffle, int result){
+    public void testFindTheDifference(String input, String shuffle, int result){
 
         Assertions.assertEquals(result, findTheDifference(input, shuffle));
 

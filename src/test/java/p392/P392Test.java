@@ -27,7 +27,7 @@ public class P392Test {
 
     @ParameterizedTest
     @MethodSource("data")
-    public void testCanConstruct(String subsequence, String input, boolean result){
+    public void testIsSubsequence(String subsequence, String input, boolean result){
 
         Assertions.assertEquals(result, isSubsequence(subsequence, input));
 
