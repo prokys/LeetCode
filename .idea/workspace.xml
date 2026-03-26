@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p401/P401.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p401/P401Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p404/P404.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/p404/P404Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +126,7 @@
     "JUnit.P389Test.executor": "Run",
     "JUnit.P392Test.executor": "Run",
     "JUnit.P401Test.executor": "Run",
+    "JUnit.P404Test.executor": "Run",
     "JUnit.java in LeetCode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -135,7 +136,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last.edited.regexp": "[]",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -150,22 +151,7 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P401Test">
-    <configuration name="P383Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p383.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p383" />
-      <option name="MAIN_CLASS_NAME" value="p383.P383Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P404Test">
     <configuration name="P387Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -226,13 +212,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P404Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p404.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p404" />
+      <option name="MAIN_CLASS_NAME" value="p404.P404Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P404Test" />
         <item itemvalue="JUnit.P401Test" />
         <item itemvalue="JUnit.P392Test" />
         <item itemvalue="JUnit.P389Test" />
         <item itemvalue="JUnit.P387Test" />
-        <item itemvalue="JUnit.P383Test" />
       </list>
     </recent_temporary>
   </component>
