@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fa0228-e469-4d9c-a7ce-15ff943d06dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p441/P441.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/p441/P441Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/prokys/p448/P448.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/P448/P448Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +134,7 @@
     "JUnit.P415Test.executor": "Run",
     "JUnit.P434Test.executor": "Run",
     "JUnit.P441Test.executor": "Run",
+    "JUnit.P448Test.executor": "Run",
     "JUnit.java in LeetCode.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -158,22 +159,7 @@
       <recent name="org.prokys.p144" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.P441Test">
-    <configuration name="P412Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p412.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p412" />
-      <option name="MAIN_CLASS_NAME" value="p412.P412Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P448Test">
     <configuration name="P414Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -234,13 +220,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P448Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P448.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="P448" />
+      <option name="MAIN_CLASS_NAME" value="P448.P448Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P448Test" />
         <item itemvalue="JUnit.P441Test" />
         <item itemvalue="JUnit.P434Test" />
         <item itemvalue="JUnit.P415Test" />
         <item itemvalue="JUnit.P414Test" />
-        <item itemvalue="JUnit.P412Test" />
       </list>
     </recent_temporary>
   </component>
